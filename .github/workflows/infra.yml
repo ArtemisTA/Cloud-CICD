@@ -5,7 +5,9 @@ on:
     branches: ["main", "master"]
     paths:
       - "infra/**"
+      - ".github/workflows/**"
 
+      
 jobs:
   apply:
     runs-on: ubuntu-latest
