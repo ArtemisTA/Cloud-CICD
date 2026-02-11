@@ -1,4 +1,4 @@
-# trigger CI:
+# trigger CI
 terraform {
   required_providers {
     google = {
